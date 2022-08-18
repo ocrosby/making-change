@@ -12,7 +12,7 @@ import com.denmark.ChangeMaker;
 public class ChangeMakerTest {
     @Test
     public void shouldAnswerWithTheExpectedValue_137() {
-        String expected = "5 quarters, 1 dimes, 0 nickels, 2 pennies";
+        String expected = "5 quarters, 1 dime, 0 nickels, 2 pennies";
         assertEquals(expected, ChangeMaker.makeChange(137));
     }
 

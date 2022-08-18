@@ -24,10 +24,33 @@ public class ChangeMaker {
                 cents--;
             }
         }
+
+        String result = "";
+
+        if (quarters == 1) {
+            result += quarters + " quarter, ";
+        } else {
+            result += quarters + " quarters, ";
+        }
+
+        if (dimes == 1) {
+            result += dimes + " dime, ";
+        } else {
+            result += dimes + " dimes, ";
+        }
+
+        if (nickels == 1) {
+            result += nickels + " nickel, ";
+        } else {
+            result += nickels + " nickels, ";
+        }
+
+        if (pennies == 1) {
+            result += pennies + " penny";
+        } else {
+            result += pennies + " pennies";
+        }
         
-        return quarters + " quarters, " + 
-               dimes + " dimes, " + 
-               nickels + " nickels, " + 
-               pennies + " pennies";
+        return result;
     }
 }
