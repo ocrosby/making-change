@@ -32,5 +32,28 @@ public class ChangeMakerTest {
     public void shouldAnswerWithTheExpectedValue_negative() {
         String expected = "0 quarters, 0 dimes, 0 nickels, 0 pennies";
         assertEquals(expected, ChangeMaker.makeChange(-20));
-    }    
+    }
+
+    @Test
+    public void shouldAnswerWithTheExpectedValue_25() {
+        String expected = "1 quarter, 0 dimes, 0 nickels, 0 pennies";
+        assertEquals(expected, ChangeMaker.makeChange(25));
+    }
+    @Test
+    public void shouldAnswerWithTheExpectedValue_10() {
+        String expected = "0 quarters, 1 dime, 0 nickels, 0 pennies";
+        assertEquals(expected, ChangeMaker.makeChange(10));
+    }
+
+    @Test
+    public void shouldAnswerWithTheExpectedValue_5() {
+        String expected = "0 quarters, 0 dimes, 1 nickel, 0 pennies";
+        assertEquals(expected, ChangeMaker.makeChange(5));
+    }
+
+    @Test
+    public void shouldAnswerWithTheExpectedValue_1() {
+        String expected = "0 quarters, 0 dimes, 0 nickels, 1 penny";
+        assertEquals(expected, ChangeMaker.makeChange(1));
+    }
 }
