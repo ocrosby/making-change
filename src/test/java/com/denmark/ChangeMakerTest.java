@@ -56,4 +56,10 @@ public class ChangeMakerTest {
         String expected = "0 quarters, 0 dimes, 0 nickels, 1 penny";
         assertEquals(expected, ChangeMaker.makeChange(1));
     }
+
+    @Test
+    public void shouldAnswerWithTheExpectedValue_41() {
+        String expected = "1 quarter, 1 dime, 1 nickel, 1 penny";
+        assertEquals(expected, ChangeMaker.makeChange(41));
+    }
 }
