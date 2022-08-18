@@ -50,3 +50,5 @@ Part 2: Making Change
 100 cents
 4 quarters, 0 dimes, 0 nickels, 0 pennies
 ```
+
+To see the values I tested take a look at the [tests](https://github.com/ocrosby/making-change/blob/main/src/test/java/com/denmark/ChangeMakerTest.java).
