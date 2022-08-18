@@ -2,6 +2,13 @@ package com.denmark;
 
 public class ChangeMaker {
     ChangeMaker() {}
+
+
+    public static void displayChange(int cents) {
+        System.out.println();
+        System.out.println(cents + " cents:");
+        System.out.println(makeChange(cents));
+    }
     
     public static String makeChange(int cents) {
         int quarters = 0;

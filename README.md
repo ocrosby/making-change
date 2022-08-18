@@ -1,5 +1,11 @@
 # Making Change
 
+## Problem Statement
+
+Write code that gives exact change with the least number of coins for a given number of cents. Use intermediate variables to help your calculation. 
+
+Note: Test with different numbers (not just 137)!
+
 ## Setup
 
 I assume the Java SDK has already been installed and you have access to it in the PATH.
