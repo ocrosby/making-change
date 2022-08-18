@@ -34,11 +34,10 @@ mvn test
 
 ## Running
 
-You can run the program by executing the run.sh shell script as follows, or by executing the command in the script directly.
+You can run the program by executing the run.sh shell script as follows, or by executing the command in the script directly (which is detailed below).
 
 ```bash
-chmod +x ./run.sh
-./run.sh
+java -jar target/make-change-1.0-SNAPSHOT.jar
 ```
 
 The output should be as expected:
