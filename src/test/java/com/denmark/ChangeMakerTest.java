@@ -23,6 +23,12 @@ public class ChangeMakerTest {
     }
 
     @Test
+    public void shouldAnswerWithTheExpectedValue_zero() {
+        String expected = "0 quarters, 0 dimes, 0 nickels, 0 pennies";
+        assertEquals(expected, ChangeMaker.makeChange(0));
+    }        
+
+    @Test
     public void shouldAnswerWithTheExpectedValue_negative() {
         String expected = "0 quarters, 0 dimes, 0 nickels, 0 pennies";
         assertEquals(expected, ChangeMaker.makeChange(-20));
