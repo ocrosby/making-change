@@ -1,4 +1,4 @@
-package com.acme;
+package com.denmark;
 
 public class ChangeMaker {
     ChangeMaker() {}

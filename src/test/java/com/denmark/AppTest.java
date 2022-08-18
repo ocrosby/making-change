@@ -1,4 +1,4 @@
-package com.acme;
+package com.denmark;
 
 import static org.junit.Assert.assertTrue;
 

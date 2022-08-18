@@ -1,8 +1,10 @@
-package com.acme;
+package com.denmark;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import com.denmark.ChangeMaker;
 
 /**
  * Unit tests for the ChangeMaker class.
