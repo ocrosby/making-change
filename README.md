@@ -8,7 +8,7 @@ Note: Test with different numbers (not just 137)!
 
 ## Setup
 
-I assume the Java SDK has already been installed and you have access to it in the PATH.
+I assume the Java SDK has already been installed and you have access to it in the PATH.  Otherwise you can [download the version for your system here](https://www.oracle.com/java/technologies/downloads/) and follow the [setup instructions](https://docs.oracle.com/en/java/javase/18/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A).
 
 ## Install Maven
 
