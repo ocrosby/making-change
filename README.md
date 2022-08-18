@@ -12,6 +12,8 @@ I assume the Java SDK has already been installed and you have access to it in th
 
 ## Install Maven
 
+The installation instructions for Apache's Maven [can be accessed here](https://maven.apache.org/install.html).  If you are on a MAC and use homebrew you can execute the following.
+
 ```bash
 brew install maven
 ```
